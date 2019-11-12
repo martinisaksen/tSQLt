@@ -12,3 +12,7 @@ tSQLt allows you to implement unit tests in T-SQL. This is important as you do n
 * Output can be generated in plain text or XML – making it easier to integrate with a continuous integration tool
 
 tSQLt is licensed under Apache 2.0 (https://github.com/tSQLt-org/tSQLt/blob/master/Build/License.txt)
+
+## What's different for this forked repo?
+
+This repo also supports code coverage via SQLCover on triggers. This is possible by introducing a table that stores the history of faked objects so the coverage of triggers can be traced back to the actual table they belong to.
